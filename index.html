@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Receitas Românticas para Cozinhar a Dois</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fff9f9;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/jantar.png');
+            background-size: cover;
+            background-position: bottom;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .recipe-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .heart-beat {
+            animation: heartbeat 1.5s infinite;
+        }
+        
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .btn-romantic {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-romantic:hover {
+            background: linear-gradient(45deg, #ff8e8e, #ff6b6b);
+            transform: translateY(-2px);
+        }
+        
+        .chef-photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero text-white py-20 px-4 md:px-10 lg:px-20 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">5 Receitas Românticas para Cozinhar a Dois</h1>
+            <p class="text-xl md:text-2xl mb-8">Transforme sua cozinha em um palco de amor com essas receitas especiais para casais</p>
+            <div class="flex justify-center items-center mb-8">
+                <img src="foto_chef_carol.webp" alt="Chef Carol Pinto" class="chef-photo mr-4">
+                <div class="text-left">
+                    <p class="text-sm opacity-80"></p>
+                    <p class="text-xl font-bold">Chef Carol Pinto</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="py-16 px-4 md:px-10 lg:px-20 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-rose-600">Cozinhar Juntos é Amar Juntos</h2>
+            <p class="text-lg mb-8 text-gray-700">Descubra como transformar a cozinha em um espaço de conexão e romance com nosso e-book exclusivo. Cada receita foi cuidadosamente elaborada para criar momentos especiais a dois, com instruções detalhadas, ingredientes exatos e sugestões de bebidas e sobremesas para completar a experiência.</p>
+            
+            <div class="bg-rose-50 p-8 rounded-lg border-l-4 border-rose-400 mb-10">
+                <h3 class="text-2xl font-bold mb-4 text-rose-700">O que você vai encontrar no e-book:</h3>
+                <ul class="text-left grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                    <li class="flex items-start"><i class="fas fa-check text-rose-500 mt-1 mr-2"></i> 5 receitas completas para ocasiões românticas</li>
+                    <li class="flex items-start"><i class="fas fa-check text-rose-500 mt-1 mr-2"></i> Listas de ingredientes precisas para 2 pessoas</li>
+                    <li class="flex items-start"><i class="fas fa-check text-rose-500 mt-1 mr-2"></i> Modo de preparo passo a passo</li>
+                    <li class="flex items-start"><i class="fas fa-check text-rose-500 mt-1 mr-2"></i> Sugestões de bebidas harmonizadas</li>
+                    <li class="flex items-start"><i class="fas fa-check text-rose-500 mt-1 mr-2"></i> Ideias de sobremesas para finalizar</li>
+                    <li class="flex items-start"><i class="fas fa-check text-rose-500 mt-1 mr-2"></i> Dicas para criar a atmosfera perfeita</li>
+                </ul>
+            </div>
+            
+            <div class="mt-10">
+                <button onclick="window.location.href='https://pay.kiwify.com.br/YRCxJgJ'" class="btn-romantic text-white font-bold py-4 px-10 rounded-full text-lg flex items-center mx-auto">
+                    <i class="fas fa-shopping-cart mr-2"></i> Quero meu e-book agora!
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 md:px-10 lg:px-20 bg-gradient-to-r from-rose-600 to-rose-400 text-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Transforme Suas Noites em Momentos Inesquecíveis</h2>
+            <p class="text-xl mb-8">Adquira agora o e-book "5 Receitas Românticas para Cozinhar a Dois" e descubra como a culinária pode fortalecer seu relacionamento.</p>
+            
+            <div class="bg-white text-gray-800 rounded-lg p-6 mb-10 max-w-2xl mx-auto">
+                <h3 class="text-2xl font-bold mb-4 text-rose-600">Oferta Especial</h3>
+                <p class="text-lg mb-4">Por apenas <span class="text-3xl font-bold text-rose-600">R$ 19,90</span></p>
+                <ul class="text-left mb-6 space-y-2">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-rose-500 mt-1 mr-2"></i> Receitas completas e testadas</li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-rose-500 mt-1 mr-2"></i> Download imediato após a compra</li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-rose-500 mt-1 mr-2"></i> Acesso vitalício e atualizações gratuitas</li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-rose-500 mt-1 mr-2"></i> Bônus: Guia de Harmonização de Vinhos</li>
+                </ul>
+                <button onclick="window.location.href='https://pay.kiwify.com.br/YRCxJgJ'" class="btn-romantic text-white font-bold py-4 px-10 rounded-full text-lg flex items-center mx-auto">
+                    <i class="fas fa-heart mr-2 heart-beat"></i> Quero meu e-book agora!
+                </button>
+            </div>
+            
+            <p class="text-sm">Garantia de satisfação de 7 dias ou seu dinheiro de volta</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 px-4 md:px-10 lg:px-20 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-rose-700">O que os casais estão dizendo</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-rose-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-200 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-rose-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Ana e Pedro</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"O fondue de queijo foi a receita perfeita para nosso aniversário de namoro. Fácil de fazer e super romântico! Já estamos planejando testar todas as outras receitas."</p>
+                </div>
+                
+                <div class="bg-rose-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-200 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-rose-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Mariana e Lucas</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"Adoramos a experiência de cozinhar juntos o risoto de camarão. As instruções são tão claras que até nós que não temos muita experiência na cozinha conseguimos fazer!"</p>
+                </div>
+                
+                <div class="bg-rose-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-200 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-rose-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Carla e João</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"A pizza caseira foi um sucesso! Dividimos os sabores como sugerido e foi muito divertido. As dicas de bebidas e sobremesas completaram perfeitamente nosso jantar romântico."</p>
+                </div>
+                
+                <div class="bg-rose-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-200 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-rose-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Beatriz e Rafael</h4>
+                            <div class="flex text-amber-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"Comprar esse e-book foi o melhor investimento para nosso relacionamento. Transformamos nossas noites de sexta-feira em momentos especiais de conexão através da culinária."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+            
+            <div class="text-center mt-12">
+                <button onclick="window.location.href='https://pay.kiwify.com.br/YRCxJgJ'" class="btn-romantic text-white font-bold py-4 px-10 rounded-full text-lg flex items-center mx-auto">
+                    <i class="fas fa-heart mr-2 heart-beat"></i> Quero todas as receitas!
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 px-4 md:px-10 lg:px-20 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-rose-700">Perguntas Frequentes</h2>
+            
+            <div class="space-y-4">
+                <div class="border border-rose-100 rounded-lg p-4">
+                    <button onclick="toggleFAQ(1)" class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-bold text-lg text-rose-600">Como receberei o e-book após a compra?</h3>
+                        <i id="faq-icon-1" class="fas fa-plus text-rose-500"></i>
+                    </button>
+                    <div id="faq-answer-1" class="hidden mt-2 text-gray-700">
+                        <p>Imediatamente após a confirmação do pagamento, você receberá um e-mail com o link para download do e-book em formato PDF. Você também poderá acessá-lo através da área do cliente em nosso site.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-rose-100 rounded-lg p-4">
+                    <button onclick="toggleFAQ(2)" class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-bold text-lg text-rose-600">Preciso ter experiência na cozinha para preparar essas receitas?</h3>
+                        <i id="faq-icon-2" class="fas fa-plus text-rose-500"></i>
+                    </button>
+                    <div id="faq-answer-2" class="hidden mt-2 text-gray-700">
+                        <p>Não! Todas as receitas foram desenvolvidas para serem acessíveis a iniciantes, com instruções passo a passo detalhadas. Além disso, incluímos dicas úteis para facilitar o processo e garantir sucesso mesmo para quem está começando.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-rose-100 rounded-lg p-4">
+                    <button onclick="toggleFAQ(3)" class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-bold text-lg text-rose-600">Posso adaptar as receitas para dietas específicas?</h3>
+                        <i id="faq-icon-3" class="fas fa-plus text-rose-500"></i>
+                    </button>
+                    <div id="faq-answer-3" class="hidden mt-2 text-gray-700">
+                        <p>Sim, muitas das receitas podem ser adaptadas. Incluímos sugestões de substituições para ingredientes comuns em dietas vegetarianas, sem glúten ou sem lactose. No entanto, algumas receitas podem precisar de mais adaptações dependendo da restrição.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-rose-100 rounded-lg p-4">
+                    <button onclick="toggleFAQ(4)" class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-bold text-lg text-rose-600">E se eu não gostar do e-book?</h3>
+                        <i id="faq-icon-4" class="fas fa-plus text-rose-500"></i>
+                    </button>
+                    <div id="faq-answer-4" class="hidden mt-2 text-gray-700">
+                        <p>Oferecemos uma garantia de satisfação de 7 dias. Se por qualquer motivo você não ficar satisfeito com o conteúdo, basta nos enviar um e-mail dentro desse período e devolveremos 100% do seu dinheiro, sem questionamentos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-rose-900 text-white py-12 px-4 md:px-10 lg:px-20">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold mb-4">5 Receitas Românticas</h3>
+                <p class="mb-4">Transforme sua cozinha em um espaço de amor e conexão com receitas especialmente criadas para casais.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-rose-300"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white hover:text-rose-300"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white hover:text-rose-300"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="text-xl font-bold mb-4">Links Úteis</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-rose-300">Termos de Serviço</a></li>
+                    <li><a href="#" class="hover:text-rose-300">Política de Privacidade</a></li>
+                    <li><a href="#" class="hover:text-rose-300">Contato</a></li>
+                    <li><a href="#" class="hover:text-rose-300">Garantia</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                <p class="mb-4">Assine para receber dicas de culinária romântica e ofertas especiais.</p>
+                <form class="flex">
+                    <input type="email" placeholder="Seu e-mail" class="px-4 py-2 rounded-l text-gray-800 w-full">
+                    <button type="submit" class="bg-rose-600 hover:bg-rose-500 px-4 py-2 rounded-r">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="border-t border-rose-800 mt-8 pt-8 text-center text-sm">
+            <p>&copy; 2023 5 Receitas Românticas para Cozinhar a Dois. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div id="purchase-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg max-w-md w-full mx-4 p-6 relative">
+            <button onclick="hidePurchaseModal()" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <h2 class="text-2xl font-bold mb-6 text-center text-rose-600">Adquira seu e-book agora</h2>
+            
+            <div class="mb-6">
+                <label for="name" class="block text-gray-700 mb-2">Nome Completo</label>
+                <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-rose-300">
+            </div>
+            
+            <div class="mb-6">
+                <label for="email" class="block text-gray-700 mb-2">E-mail</label>
+                <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-rose-300">
+            </div>
+            
+            <div class="mb-8">
+                <div class="bg-rose-50 p-4 rounded-lg mb-4">
+                    <p class="font-bold text-lg text-center">E-book "5 Receitas Românticas para Cozinhar a Dois"</p>
+                    <p class="text-center text-rose-600 font-bold text-xl mt-2">R$ 19,90</p>
+                </div>
+                
+                <button onclick="processPayment()" class="btn-romantic text-white font-bold py-3 px-6 rounded-lg w-full flex items-center justify-center">
+                    <i class="fas fa-lock mr-2"></i> Finalizar Compra
+                </button>
+            </div>
+            
+            <div class="text-center text-sm text-gray-600">
+                <p>Pagamento seguro via</p>
+                <div class="flex justify-center space-x-4 mt-2">
+                    <i class="fab fa-cc-visa text-2xl"></i>
+                    <i class="fab fa-cc-mastercard text-2xl"></i>
+                    <i class="fab fa-cc-paypal text-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+    <div id="thank-you-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg max-w-md w-full mx-4 p-8 text-center">
+            <div class="text-rose-500 text-6xl mb-4">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-rose-600">Obrigado por sua compra!</h2>
+            <p class="mb-6">Seu e-book foi enviado para o e-mail cadastrado. Aproveite essas receitas especiais para criar momentos inesquecíveis com quem você ama!</p>
+            <button onclick="hideThankYouModal()" class="btn-romantic text-white font-bold py-3 px-6 rounded-lg">
+                Fechar
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Scroll to recipes
+        function scrollToRecipes() {
+            document.getElementById('recipes').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Toggle FAQ answers
+        function toggleFAQ(number) {
+            const answer = document.getElementById(`faq-answer-${number}`);
+            const icon = document.getElementById(`faq-icon-${number}`);
+            
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            } else {
+                answer.classList.add('hidden');
+                icon.classList.remove('fa-minus');
+                icon.classList.add('fa-plus');
+            }
+        }
+        
+        // Show purchase modal
+        function showPurchaseModal() {
+            document.getElementById('purchase-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        // Hide purchase modal
+        function hidePurchaseModal() {
+            document.getElementById('purchase-modal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Process payment (simulated)
+        function processPayment() {
+            hidePurchaseModal();
+            showThankYouModal();
+        }
+        
+        // Show thank you modal
+        function showThankYouModal() {
+            document.getElementById('thank-you-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        // Hide thank you modal
+        function hideThankYouModal() {
+            document.getElementById('thank-you-modal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+    </script>
+</body>
+</html>
